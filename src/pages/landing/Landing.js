@@ -17,7 +17,10 @@ const Landing = ({ name, tagline }) => {
       bottom: "0",
       // opacity: "0.3",
       mixBlendMode: "lighten",
-      height: "100%",
+      height: "90%",
+    
+    
+ 
     },
 
     textContainer: {
@@ -75,7 +78,7 @@ const Landing = ({ name, tagline }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt=""
+          alt="Brijesh Chauhan"
         />
       </div>
 
